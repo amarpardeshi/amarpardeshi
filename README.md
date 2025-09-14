@@ -26,16 +26,6 @@
 
 ---
 
-## 📂 Key Projects & Repositories
-
-Here are some of the repositories I’m currently working on or have maintained:
-
-| Repo | Description |
-|---|-------------|
-| **generative_ai** | Collection of generative AI applications built using SpringAI + OpenAI — covering sentiment analysis, prompt-based text generation, and more. |
-| **design_patterns** | *A collection of **Java design patterns** implemented with clean, well-structured code examples. This repository covers **Creational, Structural, and Behavioral** patterns along with **SOLID principles**.* |
-
----
 
 ## 🚀 What I’m Looking For
 
