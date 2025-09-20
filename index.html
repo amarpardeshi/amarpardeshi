@@ -529,13 +529,14 @@
       <div class="row">
         <div class="col-lg-12" data-aos="fade-up">
           <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;"><a alt="click here to download"
+            <h4 style="text-align:right;"><a alt="click here to download"
                 href="https://drive.google.com/file/d/1NCN9bvzzaheEK4dw33IpDvwKkA4VuEqa/view" target="_blank"
-                style="color:#12d640">Download Resume <i class="icofont-download"></i>
+                style="color:#12d640">Download <i class="icofont-download"></i>
               </a> </h4>
-            <p style="text-align:right;color:#fff">Updated date: <em id="datetime"></em></p>
             <iframe src="https://drive.google.com/file/d/1NCN9bvzzaheEK4dw33IpDvwKkA4VuEqa/preview" width="90%"
               height="800" allow="autoplay"></iframe>
+            <p style="text-align:right;color:#fff">Updated: <em id="datetime"></em></p>
+
           </div>
         </div>
   </section>
@@ -555,7 +556,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing', {
-      strings: ["Java FullStack Developer", "Senior Software Engineer", "Coder", "Problem Solver", "DevOps Engineer"],
+      strings: ["Java FullStack Developer", "Senior Software Engineer", "Generative AI Enthusiast", "Coder", "Problem Solver", "DevOps Engineer"],
       loop: true,
       typeSpeed: 65,
       backSpeed: 65
@@ -567,9 +568,11 @@
   <script>
     var todaydate = new Date();
     var day = todaydate.getDate();
+    const currentMonthInWords = todaydate.toLocaleString('default', { month: 'long' });
+
     var month = todaydate.getMonth() + 1;
     var year = todaydate.getFullYear();
-    var datestring = day + "/" + month + "/" + year;
+    var datestring =   currentMonthInWords +  " " + year;
     document.getElementById("datetime").innerHTML = datestring;
     //document.getElementById("datetime1").innerHTML = datestring;
 
